@@ -10,6 +10,6 @@ public class HelloWorldController {
     @GetMapping("/index")
     @ResponseBody
     public String helloWorld() {
-        return "Hello world #13";
+        return "Hello world #13\nPobeda\nУрааа";
     }
 }
