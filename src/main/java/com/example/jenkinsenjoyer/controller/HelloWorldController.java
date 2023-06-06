@@ -12,6 +12,6 @@ public class HelloWorldController {
     @GetMapping("/index")
     @ResponseBody
     public String helloWorld() {
-        return "Hello world #14\nPobeda\nУрааа\n date time server=" + new Date();
+        return "Hello World!";
     }
 }
